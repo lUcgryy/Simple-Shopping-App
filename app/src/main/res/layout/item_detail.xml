@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+    <LinearLayout
+        android:id="@+id/itemMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/txtItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Item Name"
+            android:textSize="30sp"
+            android:textColor="@color/link"
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="20dp"
+            />
+        <TextView
+            android:id="@+id/txtItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Item Price"
+            android:textSize="30sp"
+            android:textColor="@color/green"
+            />
+    </LinearLayout>
+</LinearLayout>

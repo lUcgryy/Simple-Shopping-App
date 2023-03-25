@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".activity.RegisterActivity">
+    <LinearLayout
+        android:id="@+id/registerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="My Simple Fruit Shop"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="34sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewRegisterTitle"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTextEmailRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/editTextUsernameRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Username"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPasswordRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextConfirmPasswordRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="104dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="#4CAF50"
+            android:text="Register"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
