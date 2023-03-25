@@ -1,2 +1,2 @@
-# Simple-Shopping-App
+# Simple Shopping App
  
